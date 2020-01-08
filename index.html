@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--My CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Poppins:400,500&display=swap" rel="stylesheet">
+
+    <title>Formulir Pendaftaran Online</title>
+</head>
+
+<body>
+
+    <!-- Form Pendaftaran Online -->
+    <section class="form-warp">
+        <div class="form-title">
+            <img src="img/logo_jds.png" alt="">
+        </div>
+        <div class="col p-5">
+            <div class="title-form" style="text-align: center;">
+                Selamat Datang di Pengisian Form Online
+                <br>
+                Silahkan Registrasi Online Disini
+                <h5 class="text-tree p-3">
+                    Isi Form Online Ini Dengan Benar
+                </h5>
+            </div>
+        </div>
+        <div class="container">
+            <form action="" class="form-online">
+                <div class="input-form">
+                    <span class="label-input">
+                        Nama Lengkap
+                        <font color="red">*</font>
+                        <input type="text" class="form-control" placeholder="Contoh : Fauzi nurfariyanto">
+                    </span>
+                </div>
+                <div class="input-form">
+                    <span class="label-input">
+                        Tempat Lahir
+                        <font color="red">*</font>
+                        <input type="text" class="form-control" placeholder="Contoh : Cikarang">
+                    </span>
+                </div>
+                <div class="input-form">
+                    <span class="label-input">
+                        Tanggal Lahir
+                        <font color="red">*</font>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label for="inputbulan">Hari</label>
+                                <input type="text" class="form-control" id="inputhari" placeholder="">
+                            </div>
+                            <div class="col-md-3">
+                                <label for="inputbulan">Bulan</label>
+                                <input type="text" class="form-control" id="inputbulan" placeholder="">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="inputbulan">Tahun</label>
+                                <input type="text" class="form-control" id="inputtahun" placeholder="">
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="input-form">
+                    <span class="label-input">
+                        Pilih Jenis Kelamin
+                        <font color="red">*</font>
+                        <select id="inputState" class="form-control">
+                            <option selected>Jenis Kelamin</option>
+                            <option>Laki - Laki</option>
+                            <option>Perempuan</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="input-form">
+                    <span class="label-input">
+                        Alamat Rumah Sekarang
+                        <font color="red">*</font>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Contoh : Jl. Akses UI No.28, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451"></textarea>
+                    </span>
+                </div>
+
+
+                <!-- DAFTAR RIWAYAT KERJA -->
+                <div class="input-kerja h-50">
+                    <span class="riwayat-kerja">
+                        <h5>Daftar Riwayat Kerja
+                        </h5>
+                    </span>
+                    <div class="daftar-kerja h-50">
+                        <span class="label-kerja">
+                            Nama Perushaan
+                            <font color="red">*</font>
+                            <input type="text" class="form-control" placeholder="Contoh: PT. Maju Bersama">
+                        </span>
+                        <span class="label-kerja">
+                            Jabatan
+                            <font color="red">*</font>
+                            <input type="text" class="form-control" placeholder="Contoh : Supervisor">
+                        </span>
+                        <span class="label-kerja">
+                            Status Kerja
+                            <font color="red">*</font>
+                            <select id="inputState" class="form-control">
+                                <option selected>-</option>
+                                <option>Karyawan Tetap</option>
+                                <option>Kontrak</option>
+                                <option>Freelance</option>
+                                <option>Magang</option>
+                            </select>
+                        </span>
+                        <span class="label-kerja">
+                            Lokasi
+                            <font color="red">*</font>
+                            <input type="text" class="form-control" placeholder="Contoh : Bekasi, Pondok Gede">
+                        </span>
+                        <span class="label-mulaikerja">
+                            Tanggal Mulai Kerja
+                            <font color="red">*</font>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label for="inputbulan">Bulan</label>
+                                    <input type="text" class="form-control" id="inputbulan"
+                                        placeholder="Contoh : Januari" maxlength="8">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputbulan">Tahun</label>
+                                    <input type="text" class="form-control" id="inputtahun" placeholder="Contoh : 2015"
+                                        maxlength="4">
+                                </div>
+                            </div>
+                        </span>
+                        <span class="label-mulaikerja">
+                            Tanggal Akhir Kerja
+                            <font color="red">*</font>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <label for="inputbulan">Bulan</label>
+                                    <input type="text" class="form-control" id="inputbulan"
+                                        placeholder="Contoh : Januari" maxlength="8">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputbulan">Tahun</label>
+                                    <input type="text" class="form-control" id="inputtahun" placeholder="Contoh : 2015"
+                                        maxlength="4">
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <!-- Akhir Input Kerja -->
+                </div>
+            </form>
+            <button type="button" class="btn-selesai">
+                <h4>Kirim</h4>
+            </button>
+        </div>
+        <footer>
+            <div class="container">
+                Powered by <a href="">Fauzi
+                    Nurfariyanto</a>.</p>
+            </div>
+        </footer>
+    </section>
+    <!-- Akhir Form pendafataran Online -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js">
+    </script>
+    <script src="js/popper.min.js">
+    </script>
+    <script src="js/bootstrap.js">
+    </script>
+
+
+</body>
+
+</html>
